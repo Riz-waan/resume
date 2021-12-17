@@ -1,13 +1,14 @@
 ## Rizwaan Abdulkadir  
 
 #### Developer, Designer, Systems Architect
-
+Skills: HTML/CSS/JS, Go, Node.JS, PHP, Flutter, Office Products  
 [Download Resume](./resume.pdf)  
 
 [![](https://img.shields.io/badge/-rizwaan@utk.edu-grey?logo=mail.ru)](mailto:rizwaan@utk.edu)
 [![](https://img.shields.io/badge/-Riz--waan-grey?logo=github)](https://github.com/Riz-waan)
 [![](https://img.shields.io/badge/-in/rizwaanabdul-grey?logo=linkedin)](https://www.linkedin.com/in/rizwaanabdul)
 [![](https://img.shields.io/badge/-rizwaan.vesulo.com-grey?logo=apache)](https://rizwaan.vesulo.com)  
+
 ### Projects
 [Masjid Muhammad](./projects/mmuhammad.md), 2021 ![](https://img.shields.io/badge/-HTML/CSS/JS-white?logo=html5)
 ![](https://img.shields.io/badge/-Tailwind-white?logo=tailwindcss)
