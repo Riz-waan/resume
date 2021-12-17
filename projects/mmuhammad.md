@@ -32,4 +32,22 @@ This requirement was a bit hard. The problem was that unlike I originally though
 
 ![https://i.imgur.com/MoO0npy.png](https://i.imgur.com/MoO0npy.png)
 
-### Announcements
+### Announcements, Gallery, Classes
+These three sections were almost identical in terms of backend usage. For [Chattanooga Islamic Outreach](./cio.md) I had used [Prismic](https://prismic.io) as the headless CMS option. Unfortunately, for this project the demands could not be met with that service so I had to use another one: [Contentful](https://contentful.com)
+The design for these sections are as follows:
+
+Announcement:
+![](https://i.imgur.com/rgd3vUD.png)
+
+Gallery:
+![](https://i.imgur.com/y37dAhI.png)
+
+Classes:
+![](https://i.imgur.com/qM1DQst.png)
+
+Included images within the design provided by Syed Aoun Abbas and Neda Astani from Unsplash.
+
+The announcement was just one post in Contentful that is directly linked. The gallery just pulls all the images uploaded to contentful with the `gallery` tag. Each class is a seperate page.
+
+### Contact
+This was rather simple. I just had to pass a third party as a the form submit tag and it worked. The service I used was called [SlapForm](https://slapform.com).
