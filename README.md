@@ -15,12 +15,12 @@ Skills: HTML/CSS/JS, Go, Node.JS, PHP, Flutter, Office Products
 ![](https://img.shields.io/badge/-Contentful_CMS-white?logo=contentful)  
 Designed and Developed a website for the local masjid to better connect with and update the community.
 
-`[Chattanooga Islamic Outreach](./projects/cio.md)`, 2021 ![](https://img.shields.io/badge/-HTML/CSS/JS-white?logo=html5)
+[Chattanooga Islamic Outreach](./projects/cio.md), 2021 ![](https://img.shields.io/badge/-HTML/CSS/JS-white?logo=html5)
 ![](https://img.shields.io/badge/-Tailwind-white?logo=tailwindcss)
 ![](https://img.shields.io/badge/-Prismic_CMS-white?logo=prismic)  
 Designed and Developed a website for a local nonprofit to reach a broader audience and raise donations.
 
-`[BUK](./projects/buk.md)`, 2018 - 2020 ![](https://img.shields.io/badge/-HTML/CSS/JS-white?logo=html5)
+[BUK](./projects/buk.md), 2018 - 2020 ![](https://img.shields.io/badge/-HTML/CSS/JS-white?logo=html5)
 ![](https://img.shields.io/badge/-PHP-white?logo=PHP)
 ![](https://img.shields.io/badge/-MySQL-white?logo=MySQL) 
 ![](https://img.shields.io/badge/-Bootstrap-white?logo=Bootstrap)  

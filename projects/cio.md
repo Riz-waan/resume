@@ -23,36 +23,30 @@ After further discussion, he said he wanted a website to be able to do the follo
 7. Contact - There should be a contact form that sends the submission as an email.
 
 ### Design
-The first step for me was to create a design that satisfies their request. This is what we came up with:
+We started by creating a simple design:
 
-![](https://i.imgur.com/pnLTNOB.png)
+![](https://i.imgur.com/WcpysuW.png)
 
-### Donations
-Donations was a really easy aspect. All I needed was PayPal's hosted donation button link, and I could just redirect from one of my buttons on the site to that.
+### Donations and Mailing List
+This was really simple, as the donations just redirected to a paypal donation page and stay updated was a form that was handled by a 3rd party. 
 
-![](https://media.giphy.com/media/muRfqPqLTdH3LIFT5j/giphy.gif)
+![](https://i.imgur.com/G1F5St7.png)
 
-### Prayer Times
-This requirement was a bit hard. The problem was that unlike I originally thought, Mawaqit did not have a usable API. Furthermore, the website that they used was blocking iFrames. However, after lots of research I found out that there was an option to make it an embeddable widget by changing the URL a bit. This allowed me to do this:
+### Mission Statement
+This was a pretty simple page which did not need to be remotley updated or anything.
 
-![https://i.imgur.com/MoO0npy.png](https://i.imgur.com/MoO0npy.png)
+![](https://i.imgur.com/rKQ6vqh.png)
 
-### Announcements, Gallery, Classes
-These three sections were almost identical in terms of backend usage. For [Chattanooga Islamic Outreach](./cio.md) I had used [Prismic](https://prismic.io) as the headless CMS option. Unfortunately, for this project the demands could not be met with that service so I had to use another one: [Contentful](https://contentful.com)
-The design for these sections are as follows:
+### Gallery, Events, and Resources
 
-Announcement:
-![](https://i.imgur.com/rgd3vUD.png)
+These three sections are remotley controlled from Prismic. The events and resources section are simple card based lists that can expand:
 
-Gallery:
-![](https://i.imgur.com/y37dAhI.png)
+![](https://i.imgur.com/5m6ZxQO.png)![](https://i.imgur.com/wvB6DGk.png)
 
-Classes:
-![](https://i.imgur.com/qM1DQst.png)
+The gallery also followed a similar design with the images having the option to be viewed in full screen.
 
-Included images within the design provided by Syed Aoun Abbas and Neda Astani from Unsplash.
-
-The announcement was just one post in Contentful that is directly linked. The gallery just pulls all the images uploaded to contentful with the `gallery` tag. Each class is a seperate page.
+![](https://i.imgur.com/FFmYb6d.png)
 
 ### Contact
-This was rather simple. I just had to pass a third party as a the form submit tag and it worked. The service I used was called [SlapForm](https://slapform.com).
+
+This page used a 3rd part form handler to submit the contact.
